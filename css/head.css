@@ -1,0 +1,119 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  zoom: 1;
+}
+.head .ding {
+  padding: 0 10px;
+  background: url(../images/head1.jpg) repeat-x;
+  margin: 0 auto;
+  width: 980px;
+}
+.head .ding .login {
+  padding-top: 6px;
+  float: left;
+}
+.head .ding .login fieldset {
+  border: 0;
+  padding: 0;
+}
+.head .ding .login fieldset li {
+  float: left;
+  margin-right: 10px;
+  display: list-item;
+  vertical-align: middle;
+}
+.head .ding .login fieldset .sscr {
+  height: 15px;
+  width: 80px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+}
+.head .ding .rside {
+  float: right;
+  left: 31px;
+  line-height: 31px;
+}
+.head .topimg {
+  width: 1000px;
+  height: 112px;
+  margin: 0 auto;
+}
+.head .topimg img {
+  width: 100%;
+  height: 100%;
+}
+.head .nav {
+  margin: 0 auto;
+  width: 1000px;
+}
+.head .nav .nav_1 ul {
+  background: url(../images/nav.jpg) no-repeat;
+  padding-top: 5px;
+  zoom: 1;
+}
+.head .nav .nav_1 ul .channel {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+  padding: 0;
+  text-align: center;
+}
+.head .nav .nav_1 ul .active {
+  background: url(../images/nav2.jpg) no-repeat;
+}
+.head .nav .nav_1 ul .active a {
+  color: #004796  ;
+}
+.head .nav .nav_1 ul li {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 13px;
+}
+.head .nav .nav_1 ul li a {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0 20px;
+}
+.head .nav .case {
+  background: #ffffff;
+  zoom: 1;
+}
+.head .nav .case .weather {
+  float: left;
+  padding: 14px 0  0 30px;
+  margin-left: 30px;
+  background: url(../images/weather.png) 0 8px no-repeat;
+}
+.head .nav .case .weather li {
+  float: left;
+  margin: 0 4px;
+}
+.head .nav .case .search {
+  float: right;
+  padding: 9px 0 5px ;
+  margin-right: 25px;
+}
+.head .nav .case .search td {
+  margin-right: 10px;
+}
+.head .nav .case .search .sscr {
+  height: 18px;
+  width: 130px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+}
+.head .nav .case .search input {
+  margin-right: 10px;
+}
+.head .nav .case .search .btn {
+  background: url(../images/search_01.jpg) 0 2px;
+  width: 50px;
+  height: 20px;
+  border: 0;
+}

@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "宋体";
+  font-size: 12px;
+  background: url(../images/body.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+a {
+  font-size: 12px;
+  text-decoration: none;
+}
+a:hover {
+  color: #FF6600;
+}
+.conent {
+  background: #ffffff;
+  padding: 10px 10px 50px;
+  width: 980px;
+  margin: 0 auto;
+}
+.conent .main {
+  background: url(../images/icon4.jpg) repeat-y #e5eef5;
+  background-position: left;
+  zoom: 1;
+}
+.conent .main .y {
+  width: 980px;
+  height: 17px;
+  background: url(../images/img1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.conent .main .empty {
+  background: url(../images/boeder1.jpg) repeat-y #f7f7f5;
+  background-position: left;
+}
+.conent .main .text {
+  padding: 0 55px 0 50px;
+  margin-left: 5px;
+  background: url(../images/boeder1.jpg) repeat-y #f7f7f5;
+  background-position: right;
+}
+.conent .main .text h3 {
+  height: 49px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #8b8b8a;
+  color: #FF6600;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.conent .main .text dl {
+  margin-top: 30px;
+}
+.conent .main .text dl dd {
+  line-height: 25px;
+  font-size: 12px;
+}
+.conent .main .text .introduce {
+  line-height: 20px;
+  padding-top: 20px;
+}
+.conent .main .text .introduce p {
+  margin: 12px 0;
+}
+.conent .main .text .text_1 {
+  margin-top: 40px;
+  margin-left: 110px;
+  line-height: 25px;
+}
+.conent .main .text .time {
+  margin-left: 160px;
+  line-height: 25px;
+}
+.conent .main .text .source {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 35px;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  background: #eeeeee;
+}
+.conent .main .text button {
+  margin: 5px auto 0;
+  display: block;
+}
+.conent .main .bot {
+  float: right;
+  height: 17px;
+  width: 980px;
+  background: url(../images/bot1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.conent .footer {
+  margin-top: 15px;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  background: url(../images/head1.jpg) repeat-x;
+}
